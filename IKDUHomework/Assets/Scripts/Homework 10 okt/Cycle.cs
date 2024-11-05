@@ -24,7 +24,7 @@ public class Cycle
      // Method to determine if the woman is bleeding based on the day of the cycle
     private bool DetermineBleeding(int dayOfCycle)
     {
-        // Example: Assume days 23-28 are bleeding days
+        // days 23-28 are bleeding days
         return dayOfCycle >= 23 && dayOfCycle <= 28;
     }
 
